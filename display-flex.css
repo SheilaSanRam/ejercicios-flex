@@ -1,0 +1,37 @@
+.container{
+    width:80%;
+    height: 600px;
+    margin: 0 auto;
+    border:2px solid black;
+    display:flex;
+    /* Espacio entre elementos-Alineación horizontal */
+    justify-content: space-around;
+    /*Los elementos se ajustan  */
+    flex-wrap: wrap;
+    /* Alinea verticalmente con referencia al padre */
+    align-items: center;
+    
+    
+}
+.caja{
+    width:200px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.caja1{
+    border:blue solid 2px;
+    /* modificar un elemento */
+    align-self: flex-end;
+}
+.caja2{
+    border:rgb(0, 255, 42) solid 2px;
+}
+.caja3{
+    border:rgb(255, 238, 0) solid 2px;
+}
+.caja4{
+    border:rgb(255, 60, 0) solid 2px;
+}
